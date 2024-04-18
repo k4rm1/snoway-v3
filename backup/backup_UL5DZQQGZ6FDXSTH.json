@@ -1,0 +1,1611 @@
+{
+    "name": "a good server",
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "defaultMessageNotifications": 0,
+    "afk": null,
+    "widget": {
+        "enabled": null,
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Certif",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "who asked",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "no hate",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "certif",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Certif",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "🎫・ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Certif",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "🔎・information",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Certif",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "1051648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Admin",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "join",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "admin",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "✅",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "1stoppable",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "✅",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "mrfanatyz",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "✅",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "2sans3_",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "✅",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "flexy_on_top",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "✅",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "cbogota",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "✅",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Tickets",
+                "permissions": [
+                    {
+                        "roleName": "no hate",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "32768",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "who asked",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "airosh",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "nowaykaeo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "tempo0070",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "landy_0",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "shdw4kz",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "hauko",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "grrrpwa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "fdggfdefvfggfgf",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "st34ler",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "niggaturkish",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "aaronshelbyy",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Tickets",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Farm your certif",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "1337",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "no hate",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "who asked",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "📣・main",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "1337",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "🔎・proof",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "1337",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Client",
+                                "allow": "35840",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "🎉・giveaways",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "1337",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "💰・account",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "1337",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "65537",
+                                "deny": "71454029184080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "client only",
+                "permissions": [
+                    {
+                        "roleName": "who asked",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "Client",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "no hate",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "annoncement",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "client only",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "Client",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "⚡・vouch",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "client only",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Client",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "💬・chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "client only",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Client",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "🆘・problems",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "client only",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Client",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📩・suggestion",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "client only",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "no hate",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Client",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "who asked",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Public",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Public",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Espace Logs",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "📂﹒rôles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📂﹒voice",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📂﹒msg",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📂﹒mods",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📂﹒raid",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📂﹒channel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📂﹒boost",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": 0,
+                        "name": "📂﹒flux",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Espace Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": 0,
+                "name": "helfamoso1337",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "Farm your certif",
+                        "allow": "117760",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "no hate",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "who asked",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "32768",
+                        "deny": "3072"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": 0,
+                "name": "important",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "ogmail",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "Legion",
+            "color": "#070707",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "VBV BYPASSED",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "who asked",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "420009146318807",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "no hate",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "131072",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "simswaped",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "13:37",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "new role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "‍",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "‍",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "👑",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Perms role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "268435456",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Farm your certif",
+            "color": "#030303",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "helpeur",
+            "color": "#1b0b52",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "helper (test)",
+            "color": "#df00b9",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Friend",
+            "color": "#06ffca",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Client v1",
+            "color": "#101ff4",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Client",
+            "color": "#f20000",
+            "hoist": true,
+            "permissions": "2150696448",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "‍",
+            "color": "#070606",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "/certif",
+            "color": "#1abc9c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "perm voc",
+            "color": "#00dcff",
+            "hoist": false,
+            "permissions": "36700672",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "533132247158337",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [
+        {
+            "id": "230765114884751361",
+            "reason": "wlh jl'ai scam mdr\n"
+        },
+        {
+            "id": "244939124794982400",
+            "reason": "Blacklist"
+        },
+        {
+            "id": "336256046035238923",
+            "reason": null
+        },
+        {
+            "id": "495324993568112660",
+            "reason": "Blacklist"
+        },
+        {
+            "id": "664577781648326656",
+            "reason": "Breaking server rules"
+        },
+        {
+            "id": "740239253149188197",
+            "reason": "Blacklist"
+        },
+        {
+            "id": "961291861023158353",
+            "reason": "Blacklist"
+        },
+        {
+            "id": "1045412983674781766",
+            "reason": null
+        },
+        {
+            "id": "1106203205651668994",
+            "reason": "Bl, Par azame.rip | Raison : Inconnu"
+        },
+        {
+            "id": "1133021577819205653",
+            "reason": "Bl, Par 1sown | Raison : Inconnu"
+        },
+        {
+            "id": "1159652598039711808",
+            "reason": "Blacklist"
+        },
+        {
+            "id": "1194338373075222652",
+            "reason": "Blacklist"
+        }
+    ],
+    "emojis": [
+        {
+            "name": "b_etoile",
+            "url": "https://cdn.discordapp.com/emojis/1201582592319823914.gif"
+        },
+        {
+            "name": "b_etoile",
+            "url": "https://cdn.discordapp.com/emojis/1201582596883226695.gif"
+        },
+        {
+            "name": "discord_verified",
+            "url": "https://cdn.discordapp.com/emojis/1201582638897578089.png"
+        },
+        {
+            "name": "discord_verified",
+            "url": "https://cdn.discordapp.com/emojis/1201582639325392936.png"
+        },
+        {
+            "name": "b_louisvitton",
+            "url": "https://cdn.discordapp.com/emojis/1202591575616524318.png"
+        },
+        {
+            "name": "Paypal",
+            "url": "https://cdn.discordapp.com/emojis/1208831566772437002.png"
+        },
+        {
+            "name": "LTC",
+            "url": "https://cdn.discordapp.com/emojis/1208831621273223188.png"
+        }
+    ],
+    "members": [],
+    "createdTimestamp": 1710704376877,
+    "guildID": "1201519287081377813",
+    "id": "1219007251751112705",
+    "iconURL": "https://cdn.discordapp.com/icons/1201519287081377813/752ff1c430da8cd8c8de51e82898c28c.webp"
+}

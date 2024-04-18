@@ -1,0 +1,83 @@
+{
+    "name": "> Lumina",
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "defaultMessageNotifications": 0,
+    "afk": null,
+    "widget": {
+        "enabled": null,
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Salons textuels",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "général",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Salons vocaux",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": 2,
+                        "name": "Général",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Salons vocaux",
+                        "permissions": []
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "[dev]",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "Développeurs",
+            "color": "#fffafa",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "559623605571137",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1707494637452,
+    "guildID": "1205216671183409252",
+    "id": "1205544628841877505"
+}

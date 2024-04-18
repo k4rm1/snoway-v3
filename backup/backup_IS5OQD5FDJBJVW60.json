@@ -1,0 +1,235 @@
+{
+    "name": "Snoway Private",
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "defaultMessageNotifications": 0,
+    "afk": null,
+    "widget": {
+        "enabled": null,
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Salons textuels",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "général",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "nouveau rôle",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "[dev]",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Développeurs & Admin",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "Snoway Bots",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "Bots Perso",
+            "color": "#8cc4ff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "559623605571137",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [
+        {
+            "id": "379364360331460608",
+            "reason": "BLACKLIST | by .noid3a"
+        },
+        {
+            "id": "1011805902493458503",
+            "reason": "BLACKLIST | by 1sown"
+        },
+        {
+            "id": "1095298745794560042",
+            "reason": "BLACKLIST | by 1sown"
+        },
+        {
+            "id": "1173340704467067105",
+            "reason": "BLACKLIST | by sown#0001"
+        },
+        {
+            "id": "1200853377232408757",
+            "reason": "BLACKLIST | by 1sown"
+        }
+    ],
+    "emojis": [
+        {
+            "name": "buyer",
+            "url": "https://cdn.discordapp.com/emojis/1189236174045323285.png"
+        },
+        {
+            "name": "owners",
+            "url": "https://cdn.discordapp.com/emojis/1189298926851993676.png"
+        },
+        {
+            "name": "1166510190842089562",
+            "url": "https://cdn.discordapp.com/emojis/1189675061691568292.gif"
+        },
+        {
+            "name": "1182795041907937400",
+            "url": "https://cdn.discordapp.com/emojis/1189675210182500442.png"
+        },
+        {
+            "name": "1166540535616524338",
+            "url": "https://cdn.discordapp.com/emojis/1189675211285594133.png"
+        },
+        {
+            "name": "1110747218073366659",
+            "url": "https://cdn.discordapp.com/emojis/1189675213273706597.png"
+        },
+        {
+            "name": "1110762254279921704",
+            "url": "https://cdn.discordapp.com/emojis/1189675214930452530.png"
+        },
+        {
+            "name": "early",
+            "url": "https://cdn.discordapp.com/emojis/1192036003695833199.png"
+        },
+        {
+            "name": "infos",
+            "url": "https://cdn.discordapp.com/emojis/1192036005730070558.png"
+        },
+        {
+            "name": "del",
+            "url": "https://cdn.discordapp.com/emojis/1196820168588918875.png"
+        },
+        {
+            "name": "off",
+            "url": "https://cdn.discordapp.com/emojis/1202343897150521404.gif"
+        },
+        {
+            "name": "on",
+            "url": "https://cdn.discordapp.com/emojis/1202343977882226688.gif"
+        },
+        {
+            "name": "retour",
+            "url": "https://cdn.discordapp.com/emojis/1202977490423775303.png"
+        },
+        {
+            "name": "time",
+            "url": "https://cdn.discordapp.com/emojis/1202977706241687594.png"
+        },
+        {
+            "name": "age",
+            "url": "https://cdn.discordapp.com/emojis/1202977707739062332.png"
+        },
+        {
+            "name": "settings",
+            "url": "https://cdn.discordapp.com/emojis/1202977729969131600.png"
+        },
+        {
+            "name": "user",
+            "url": "https://cdn.discordapp.com/emojis/1202977739229892651.png"
+        },
+        {
+            "name": "channel",
+            "url": "https://cdn.discordapp.com/emojis/1202977817004875847.png"
+        },
+        {
+            "name": "nop",
+            "url": "https://cdn.discordapp.com/emojis/1202977817894199356.png"
+        },
+        {
+            "name": "valide",
+            "url": "https://cdn.discordapp.com/emojis/1202977818942767176.png"
+        },
+        {
+            "name": "danger",
+            "url": "https://cdn.discordapp.com/emojis/1203299194840944650.png"
+        },
+        {
+            "name": "message",
+            "url": "https://cdn.discordapp.com/emojis/1203415252725932152.png"
+        },
+        {
+            "name": "new",
+            "url": "https://cdn.discordapp.com/emojis/1203415887697158164.png"
+        },
+        {
+            "name": "delete",
+            "url": "https://cdn.discordapp.com/emojis/1203418392225390672.png"
+        },
+        {
+            "name": "message",
+            "url": "https://cdn.discordapp.com/emojis/1210808484254326854.png"
+        },
+        {
+            "name": "vocal",
+            "url": "https://cdn.discordapp.com/emojis/1210808528319815740.png"
+        }
+    ],
+    "members": [],
+    "createdTimestamp": 1709829143130,
+    "guildID": "1188962621504888862",
+    "id": "1215336255345135617",
+    "iconURL": "https://cdn.discordapp.com/icons/1188962621504888862/2243e3816b87590bf76d864893185818.webp"
+}
